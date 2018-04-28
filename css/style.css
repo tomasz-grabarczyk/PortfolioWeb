@@ -1,0 +1,114 @@
+head, body {
+  height: 100%;
+  margin: 0px;
+}
+
+.contentcv {
+
+  opacity: 0.75;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#container {
+  height: 2600px;
+
+}
+
+#skills {
+  height: 450px;
+  background-image: linear-gradient(#2e2e1f, #ccccb3, #2e2e1f);
+}
+
+.technology {
+  width: 50%;
+  height: 100px;
+  padding-top: 50px;
+  text-align: center;
+  font-size: 50px;
+  color: #000;
+  float: left;
+}
+
+
+.contentcv {
+  height: 500px;
+  background-color: #FFF;
+}
+
+.content2, #projects {
+  height: 600px;
+  background-color: black;
+  color: white;
+}
+
+#mainPage {
+  background-image: linear-gradient(black, white);
+  height: 750px;
+}
+
+#whoAmI {
+  padding-top: 100px;
+  color: black;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#normalText {
+  color: black;
+  text-align: center;
+  font-size: 30px;
+}
+
+#projectsHeader, #skillsHeader {
+  text-align: center;
+  height: 80px;
+  width: 100%;
+  padding-top: 20px;
+  font-size: 50px;
+  background-image: linear-gradient(black, white, black);
+}
+
+#translator, #calculator, #placeholderTwo, #portfolio {
+  height: 300px;
+  width: 50%;
+  float: left;
+}
+
+#translator, #calculator, #placeholderTwo, #portfolio {
+  height: 200px;
+  padding-top: 100px;
+  font-size: 30px;
+  text-align: center;
+  background-image: linear-gradient(white, black);
+  background-repeat: no-repeat;
+  color: #000;
+}
+
+#translator {
+  background-image: url("../img/Translator.jpg");
+}
+
+#translator:hover {
+  opacity: 0.7;
+}
+
+#portfolio {
+  background-image: url("../img/Portfolio.jpg")
+}
+
+#portfolio:hover {
+  opacity: 0.7;
+}
+
+#calculator {
+  background-image: url("../img/Calculator.jpg");
+}
+
+#calculator:hover {
+  opacity: 0.7;
+}
